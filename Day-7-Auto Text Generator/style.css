@@ -1,0 +1,18 @@
+body{
+    font-family: 'Arvo', serif;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    font-size: 2rem;
+}
