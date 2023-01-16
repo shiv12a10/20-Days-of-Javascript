@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arvo',serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    color: #fff;
+}
+.heading{
+    padding-bottom: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+.wrapper{
+    width: 90vmin;
+}
+.container{
+    padding: 50px 30px 30px 30px;
+    background: #fff;
+    border-radius: 8px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 23px;
+    color: black;
+}
+.count{
+    position: relative;
+    width: 80%;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+}
+h5{
+    font-size: 32px;
+}
