@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myVar = setTimeout(myFunction, 3000)">Try it</button>
+
+<button onclick="clearTimeout(myVar)">Stop it</button>
+
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  alert("Hello");
+}
+
+let myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+</script>
+</body>
+</html>
